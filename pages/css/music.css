@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: azure;
+    text-decoration: none;
+}
+body{
+background-color: darkslateblue;
+}
+.avatar{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+.navbar{
+    position: relative;
+    background-color: #2b2929;
+    border-radius: 16px;
+    padding: 7px;
+}
+.brand-logo{
+    border-radius: 100px;
+}
+.brand-text{
+    position: absolute;
+    font-size: large;
+    top: 35%;
+    left: 4.5%;
+}
+.downloads{
+    position: absolute; 
+    top: 39%;
+    left: 10.5%;
+    font-size:medium;
+}
+.devices{
+    position: absolute;
+    top: 39%;
+    left: 18.5%;
+    font-size: medium; 
+}

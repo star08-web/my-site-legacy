@@ -108,9 +108,74 @@ background-color: darkslateblue;
     opacity: .25;
     transform: translateY(10px);
 }
+.expo{
+    content: "";
+    position: absolute;
+    height: 450px;
+    width: 850px;
+    background-color: #2b2929;
+    /*border: 1px solid #7a7a7a50;*/
+    border-radius: 10px;
+    left: 15%;
+    top: 90%;
+    padding: 10px;
+    box-shadow: 10px 5px 15px #00000015, 10px 8px 12px #00000015;
+    overflow: hidden;
+    z-index: 1;
+}
+.softcard{
+    content: "";
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: #3356ca;
+    border: 1px solid white;
+    border-radius: 10px;
+    left: 5%;
+    top: 30%;
+    padding: 10px;
+    box-shadow: 10px 5px 15px #00000015, 10px 8px 12px #00000015;
+    overflow: hidden;
+    z-index: 2;
+}
+.musiccard{
+    content: "";
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background-color: #3368ca;
+    border: 1px solid white;
+    border-radius: 10px;
+    left: 60%;
+    top: 30%;
+    padding: 10px;
+    box-shadow: 10px 5px 15px #00000015, 10px 8px 12px #00000015;
+    overflow: hidden;
+    z-index: 2;
+}
 .Work{
     position: absolute;
-    top: 90%;
-    left: 25%;
+    top: 15%;
+    left: 45%;
     font-size: x-large;
+}
+.Soft{
+        position: absolute;
+        width: fit-content;
+        left: 25%;
+        top: 80%;
+}
+.Music{
+    position: absolute;
+    width: fit-content;
+    left: 30%;
+    top: 80%;
+}
+.card-image{
+    font-size:200px;
+    color: white;
+}
+.card-image:hover{
+    font-size:200px;
+    color: coral;
 }
