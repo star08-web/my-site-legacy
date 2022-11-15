@@ -2,16 +2,18 @@
 *{
     font-family: 'Quicksand', sans-serif;
     color: azure;
+    text-decoration: none;
 }
 body{
 background-color: darkslateblue;
 }
 .avatar{
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 4%;
 }
 .navbar{
+    position: relative;
     background-color: #2b2929;
     border-radius: 16px;
     padding: 7px;
@@ -22,11 +24,93 @@ background-color: darkslateblue;
 .brand-text{
     position: absolute;
     font-size: large;
+    top: 35%;
+    left: 4.5%;
 }
 .downloads{
+    position: absolute; 
+    top: 39%;
+    left: 10.5%;
+    font-size:medium;
+}
+.devices{
     position: absolute;
-    background-color: ;
-    top: 4%;
-    left: 10%;
-    font-size:x-large;
+    top: 39%;
+    left: 18.5%;
+    font-size: medium; 
+}
+.intro{
+    position: absolute;
+    font-size: x-large;
+    top: 40%;
+    left: 30%;
+}
+.langs{
+    position: absolute;
+    font-size: large;
+    top:45%;
+    left: 30%;
+}
+.HTML{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    border-radius:10px;
+}
+.HTML:hover {
+    z-index: 4;
+    transition: 250ms;
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.HTML:not(hover) {
+    z-index: 1;
+    transition: 250ms;
+    opacity: .25;
+    transform: translateY(10px);
+}
+.dotnet{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    border-radius:10px;
+}
+.dotnet:hover {
+    z-index: 4;
+    transition: 250ms;
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.dotnet:not(hover) {
+    z-index: 1;
+    transition: 250ms;
+    opacity: .25;
+    transform: translateY(10px);
+}
+.cshurp{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    border-radius:10px;
+}
+.cshurp:hover {
+    z-index: 4;
+    transition: 250ms;
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+.cshurp:not(hover) {
+    z-index: 1;
+    transition: 250ms;
+    opacity: .25;
+    transform: translateY(10px);
+}
+.Work{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    font-size: x-large;
 }
