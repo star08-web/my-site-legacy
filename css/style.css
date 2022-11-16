@@ -38,9 +38,7 @@ background-color: darkslateblue;
     padding: 7px;
 }
 .brand-logo{
-    border-radius: 100px;
-    margin-left: 2%;
-    
+    border-radius: 100px;    
 }
 .brand-text{
     position: absolute;

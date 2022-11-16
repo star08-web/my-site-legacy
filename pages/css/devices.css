@@ -186,6 +186,7 @@ background-color: darkslateblue;
     position: absolute;
     top: 65%;
     left: 50%;
+    margin-left: 20px;
     width: fit-content;
     font-size: medium;
 }

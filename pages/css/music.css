@@ -65,6 +65,7 @@ background-color: darkslateblue;
     background-color: orange;
     border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
     top: 91.5%;
     left: 10%;
 }
@@ -78,6 +79,7 @@ background-color: darkslateblue;
     position: absolute;
     background-color: orange;
     border-radius: 10px;
+    cursor: pointer;
     padding: 10px;
     top: 91.5%;
     left: 60%;
