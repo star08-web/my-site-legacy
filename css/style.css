@@ -7,6 +7,25 @@
 body{
 background-color: darkslateblue;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #4e4858;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(108, 96, 117);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(130, 119, 139);
+  }
 .avatar{
     position: absolute;
     top: 20%;
@@ -20,6 +39,8 @@ background-color: darkslateblue;
 }
 .brand-logo{
     border-radius: 100px;
+    margin-left: 2%;
+    
 }
 .brand-text{
     position: absolute;
@@ -56,57 +77,21 @@ background-color: darkslateblue;
     top: 50%;
     left: 30%;
     border-radius:10px;
-}
-.HTML:hover {
-    z-index: 4;
-    transition: 250ms;
-    opacity: 1;
-    transform: translateY(-10px);
-}
-
-.HTML:not(hover) {
-    z-index: 1;
-    transition: 250ms;
-    opacity: .25;
-    transform: translateY(10px);
+    box-shadow: 3px 3px 6px #00000015,4px 4px 7px #00000015;
 }
 .dotnet{
     position: absolute;
     top: 50%;
-    left: 36%;
+    left: 36.5%;
     border-radius:10px;
-}
-.dotnet:hover {
-    z-index: 4;
-    transition: 250ms;
-    opacity: 1;
-    transform: translateY(-10px);
-}
-
-.dotnet:not(hover) {
-    z-index: 1;
-    transition: 250ms;
-    opacity: .25;
-    transform: translateY(10px);
+    box-shadow: 3px 3px 6px #00000015,4px 4px 7px #00000015;
 }
 .cshurp{
     position: absolute;
     top: 50%;
     left: 42%;
     border-radius:10px;
-}
-.cshurp:hover {
-    z-index: 4;
-    transition: 250ms;
-    opacity: 1;
-    transform: translateY(-10px);
-}
-
-.cshurp:not(hover) {
-    z-index: 1;
-    transition: 250ms;
-    opacity: .25;
-    transform: translateY(10px);
+    box-shadow: 3px 3px 6px #00000015,4px 4px 7px #00000015;
 }
 .expo{
     content: "";
@@ -168,14 +153,25 @@ background-color: darkslateblue;
 .Music{
     position: absolute;
     width: fit-content;
-    left: 30%;
+    left: 30%; 
     top: 80%;
+}
+.softcard{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .card-image{
     font-size:200px;
     color: white;
 }
 .card-image:hover{
+    transition: all 250ms;
     font-size:200px;
-    color: coral;
+    color: rgb(227, 196, 255);
+}
+.card-image:not(hover){
+    transition: all 250ms;
+    font-size:200px;
+    color: rgb(255, 255, 255);
 }
