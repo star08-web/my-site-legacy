@@ -7,6 +7,24 @@
 body{
 background-color: darkslateblue;
 }
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
 .avatar{
     position: absolute;
     top: 10%;
@@ -15,7 +33,7 @@ background-color: darkslateblue;
 .navbar{
     position: relative;
     background-color: #2b2929;
-    border-radius: 16px;
+    border-radius: 100px;
     padding: 7px;
 }
 .brand-logo{

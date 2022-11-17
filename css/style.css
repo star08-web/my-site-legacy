@@ -7,24 +7,23 @@
 body{
 background-color: darkslateblue;
 }
-/* width */
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 20px;
   }
   
-  /* Track */
   ::-webkit-scrollbar-track {
-    background: #4e4858;
+    background-color: transparent;
   }
   
-  /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(108, 96, 117);
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
   }
   
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(130, 119, 139);
+    background-color: #a8bbbf;
   }
 .avatar{
     position: absolute;
@@ -34,7 +33,7 @@ background-color: darkslateblue;
 .navbar{
     position: relative;
     background-color: #2b2929;
-    border-radius: 16px;
+    border-radius: 100px;
     padding: 7px;
 }
 .brand-logo{
@@ -52,11 +51,27 @@ background-color: darkslateblue;
     left: 10.5%;
     font-size:medium;
 }
+.downloads:hover{
+    color: coral;
+    transition: all 150ms;
+}
+.downloads:not(hover){
+    color: azure;
+    transition: all 150ms;
+}
 .devices{
     position: absolute;
     top: 39%;
     left: 18.5%;
     font-size: medium; 
+}
+.devices:hover{
+    color: coral;
+    transition: all 150ms;
+}
+.devices:not(hover){
+    color: azure;
+    transition: all 150ms;
 }
 .intro{
     position: absolute;
