@@ -36,6 +36,29 @@ background-color: darkslateblue;
     border-radius: 100px;
     padding: 7px;
 }
+.devices:hover{
+    color: #be6ffb;
+    transition: all 150ms;
+}
+.devices:not(hover){
+    color: azure;
+    transition: all 150ms;
+}
+.downloads:hover{
+    color: #be6ffb;
+    transition: all 150ms;
+}
+.downloads:not(hover){
+    color: azure;
+    transition: all 150ms;
+}
+.music{
+    position: absolute;
+    top: 39%;
+    left: 25.5%;
+    font-size: medium; 
+    color: #be6ffb;
+}
 .brand-logo{
     border-radius: 100px;
 }

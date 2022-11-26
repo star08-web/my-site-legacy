@@ -25,6 +25,9 @@ background-color: darkslateblue;
   ::-webkit-scrollbar-thumb:hover {
     background-color: #a8bbbf;
   }
+  html{
+    scroll-behavior: smooth;
+}
 .avatar{
     position: absolute;
     top: 20%;
@@ -52,7 +55,7 @@ background-color: darkslateblue;
     font-size:medium;
 }
 .downloads:hover{
-    color: coral;
+    color: #be6ffb;
     transition: all 150ms;
 }
 .downloads:not(hover){
@@ -66,10 +69,24 @@ background-color: darkslateblue;
     font-size: medium; 
 }
 .devices:hover{
-    color: coral;
+    color: #be6ffb;
     transition: all 150ms;
 }
 .devices:not(hover){
+    color: azure;
+    transition: all 150ms;
+}
+.music{
+    position: absolute;
+    top: 39%;
+    left: 25.5%;
+    font-size: medium; 
+}
+.music:hover{
+    color: #be6ffb;
+    transition: all 150ms;
+}
+.music:not(hover){
     color: azure;
     transition: all 150ms;
 }
@@ -115,7 +132,7 @@ background-color: darkslateblue;
     /*border: 1px solid #7a7a7a50;*/
     border-radius: 10px;
     left: 15%;
-    top: 90%;
+    top: 85%;
     padding: 10px;
     box-shadow: 10px 5px 15px #00000015, 10px 8px 12px #00000015;
     overflow: hidden;
@@ -181,7 +198,7 @@ background-color: darkslateblue;
 .card-image:hover{
     transition: all 250ms;
     font-size:200px;
-    color: rgb(227, 196, 255);
+    color: #be6ffb;
 }
 .card-image:not(hover){
     transition: all 250ms;

@@ -30,6 +30,9 @@ background-color: darkslateblue;
     top: 10%;
     left: 4%;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     position: relative;
     background-color: #2b2929;
@@ -51,12 +54,34 @@ background-color: darkslateblue;
     left: 10.5%;
     font-size:medium;
 }
+.downloads:hover{
+    color: #be6ffb;
+    transition: all 150ms;
+}
+.downloads:not(hover){
+    color: azure;
+    transition: all 150ms;
+}
 .devices{
     position: absolute;
     top: 39%;
     left: 18.5%;
     font-size: medium; 
-    color: coral;
+    color: #be6ffb;
+}
+.music{
+    position: absolute;
+    top: 39%;
+    left: 25.5%;
+    font-size: medium; 
+}
+.music:hover{
+    color: #be6ffb;
+    transition: all 150ms;
+}
+.music:not(hover){
+    color: azure;
+    transition: all 150ms;
 }
 .cherry{
     content: "";
@@ -204,6 +229,58 @@ background-color: darkslateblue;
     position: absolute;
     top: 65%;
     left: 50%;
+    margin-left: 20px;
+    width: fit-content;
+    font-size: medium;
+}
+.coso{
+    content: "";
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    background-color: #2b2929;
+    /*border: 1px solid #7a7a7a50;*/
+    border-radius: 10px;
+    left: 50%;
+    top: 650px;
+    padding: 10px;
+    box-shadow: 10px 5px 15px #00000015, 10px 8px 12px #00000015;
+    overflow: hidden;
+    z-index: 1;
+}
+.realname-coso{
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    font-size: larger;
+}
+.coso-img{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+.codename-coso{
+    position: absolute;
+    top: 45%;
+    left: 29.5%;
+    font-size: larger;
+}
+.OS-coso{
+    position: absolute;
+    top: 55%;
+    left: 24%;
+    font-size: larger;
+}
+.specs-coso{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    font-size: medium;
+}
+.specslink-coso{
+    position: absolute;
+    top: 65%;
+    left: 46%;
     margin-left: 20px;
     width: fit-content;
     font-size: medium;
