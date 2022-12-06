@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: azure;
+    text-decoration: none;
+}
+body{
+background-color: darkslateblue;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+  .main-text{
+    position: absolute;
+    font-size: xx-large;
+    top: 40%;
+  }
+  .download-utext{
+    position: absolute;
+    font-size: large;
+    top: 45%;
+  }
+  .btn-restart{
+    position: absolute;
+    font-size: larger;
+    top: 45%;
+    left: 35%;
+    color: #00a2ff;
+    text-decoration: dashed;
+  }
