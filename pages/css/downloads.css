@@ -144,8 +144,9 @@ top: 75%;
 left: 30%;
 background-color: #5865F2;
 border-radius: 50px;
+text-align: center;
 border: #454FBF 1px solid;
-padding: 5px;
+padding: 15px;
 text-decoration: none;
 }
 
