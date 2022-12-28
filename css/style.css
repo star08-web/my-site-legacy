@@ -346,7 +346,37 @@ background-color: darkslateblue;
         color: azure;
         display: inline;
         z-index: 33;
-        top: 10%;
+        top: 15%;
+        left: 35%;
+    }
+    .devnw{
+        visibility: hidden;
+        display: none;
+        transition: all 150ms;
+    }
+    .devnw.show{
+        visibility: visible;
+        position: absolute;
+        transition: all 150ms;
+        color: azure;
+        display: inline;
+        z-index: 33;
+        top: 20%;
+        left: 38%;
+    }
+    .musicnw{
+        visibility: hidden;
+        display: none;
+        transition: all 150ms;
+    }
+    .musicnw.show{
+        visibility: visible;
+        position: absolute;
+        transition: all 150ms;
+        color: azure;
+        display: inline;
+        z-index: 33;
+        top: 25%;
         left: 40%;
     }
 }
