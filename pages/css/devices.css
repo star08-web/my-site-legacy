@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('/fonts/fonts.css');
 *{
     font-family: 'Quicksand', sans-serif;
     color: azure;
@@ -142,7 +142,7 @@ html{
     top:10%;
     left: 15%;
 }
-.addy{
+.kirita{
     content: "";
     position: absolute;
     height: 450px;
@@ -172,7 +172,7 @@ html{
 .OS-phone{
     position: absolute;
     top: 55%;
-    left: 30%;
+    left: 35%;
     font-size: medium;
 }
 .specs-phone{

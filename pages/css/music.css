@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('/fonts/fonts.css');
 *{
     font-family: 'Quicksand', sans-serif;
     color: azure;
@@ -147,4 +147,10 @@ background-color: darkslateblue;
 .lofidream{
     height: 550px;
     width: 350px;
+}
+.iframelocker{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
 }

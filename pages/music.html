@@ -4,6 +4,8 @@
     <link rel="manifest" href="../favicons/site.webmanifest">
     <link rel="shortcut icon" href="../favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/music.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/iframemanager@v1.1.0/dist/iframemanager.css">
     <meta charset="UTF-8">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -21,15 +23,24 @@
             <a class="music" href="#">Music <ion-icon class="icon" name="musical-notes-outline"></ion-icon></a>
         </figure>
         <figure class="summerframe">
-            <iframe class="summer frame" src="https://ffm.to/alexifysummer.OWE" frameborder="0"></iframe>
-            <a class="download-btn" href="https://alexifiles.has.rocks/summer.mp3" target="_blank" rel="noopener noreferrer">Download <ion-icon class="download-icn" name="cloud-download-outline"></ion-icon></a>
+            <div class="iframelocker" data-service="featurefm" data-id="alexifysummer.OWE" data-thumbnail="https://bandlabimages.azureedge.net/v1.0/songs/ade3a1ae-b52f-463e-8997-a1df88ab8173/640x640">
+                <iframe class="summer frame" src="https://ffm.to/alexifysummer.OWE" frameborder="0"></iframe>
+            </div>
+            <a class="download-btn" href="https://ffm.to/alexifysummer_download.OWE" target="_blank" rel="noopener noreferrer">Download <ion-icon class="download-icn" name="cloud-download-outline"></ion-icon></a>
             <a class="stream-btn" onclick="prompt('Press Ctrl + C, then Enter to copy to clipboard','https://ffm.to/alexifysummer')">Get Link <ion-icon class="stream-icn" name="play-outline"></ion-icon></a>
         </figure>
         <figure class="lofiframe">
-            <iframe class="lofidream frame" src="https://alexify.ampl.ink/lofidream" frameborder="0"></iframe>
+            <div class="iframelocker" data-service="featurefm" data-id="lofidream.OWE" data-thumbnail="https://bandlabimages.azureedge.net/v1.0/songs/a52190fd-7395-43bd-8de4-7a85b8964dbc/640x640">
+                <iframe class="lofidream frame" src="https://ffm.to/lofidream.OWE" frameborder="0"></iframe>
+            </div>
             <a class="download-btn" href="https://alexifiles.has.rocks/lofi_dream.mp3" target="_blank" rel="noopener noreferrer">Download <ion-icon class="download-icn" name="cloud-download-outline"></ion-icon></a>
-            <a class="stream-btn" onclick="prompt('Press Ctrl + C, then Enter to copy to clipboard','https://alexify.ampl.ink/lofidream')">Get Link <ion-icon class="stream-icn" name="play-outline"></ion-icon></a>
+            <a class="stream-btn" onclick="prompt('Press Ctrl + C, then Enter to copy to clipboard','https://alexify.fanlink.to/LFD')">Get Link <ion-icon class="stream-icn" name="play-outline"></ion-icon></a>
         </figure>
     </div>
+    <script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.js"></script>
+    <script defer src="/config/cookieconfig-init.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/iframemanager@v1.1.0/dist/iframemanager.js" defer></script>
+    <script src="/config/iframeconfig-init.js" defer></script>
+
 </body>
 </html>
