@@ -85,8 +85,8 @@ background-color: darkslateblue;
     position: absolute;
     height: 600px;
     width: 350px;
-    background-color: coral;
-    border: 1px solid gainsboro;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(73, 73, 73);
     border-radius: 10px;
     left: 15%;
     top: 12.5%;
@@ -98,12 +98,13 @@ background-color: darkslateblue;
 .summer{
     height: 550px;
     width: 350px;
+    border-radius: 15px;
 }
 .download-btn{
-    color: black;
+    color: whitesmoke;
     font-size: large;
     position: absolute;
-    background-color: orange;
+    background-color: rgba(95, 88, 88, 0.644);
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
@@ -111,14 +112,14 @@ background-color: darkslateblue;
     left: 10%;
 }
 .download-icn{
-    color: black;
+    color: whitesmoke;
     font-size: large;
 }
 .stream-btn{
-    color: black;
+    color: whitesmoke;
     font-size: large;
     position: absolute;
-    background-color: orange;
+    background-color: rgba(95, 88, 88, 0.644);
     border-radius: 10px;
     cursor: pointer;
     padding: 10px;
@@ -126,7 +127,7 @@ background-color: darkslateblue;
     left: 60%;
 }
 .stream-icn{
-    color: black;
+    color: whitesmoke;
     font-size: large;
 }
 .lofiframe{
@@ -134,8 +135,8 @@ background-color: darkslateblue;
     position: absolute;
     height: 600px;
     width: 350px;
-    background-color: coral;
-    border: 1px solid gainsboro;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(73, 73, 73);
     border-radius: 10px;
     left: 60%;
     top: 12.5%;
@@ -147,12 +148,10 @@ background-color: darkslateblue;
 .lofidream{
     height: 550px;
     width: 350px;
+    border-radius: 15px;
 }
-.iframelocker{
-    position: absolute;
-    width: 100%;
-    height: 90%;
-    border-radius: 10px;
+.mobbar{
+    display: none;
 }
 @media only screen and (max-width:600px){
     ::-webkit-scrollbar {
@@ -289,11 +288,11 @@ background-color: darkslateblue;
     }
     .summerframe{
         position: absolute;
-        left: 2%;
+        left: -5%;
     }
     .lofiframe{
         position: absolute;
         top: 110%;
-        left: 2%;
+        left: -5%;
     }
 }

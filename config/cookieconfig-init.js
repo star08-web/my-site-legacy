@@ -104,10 +104,10 @@ cc.run({
                         },
                         cookie_table: [             // list of all expected cookies
                             {
-                                col1: '^_ga',       // match all cookies starting with "_ga"
-                                col2: 'google.com',
+                                col1: '_clck',       // match all cookies starting with "_ga"
+                                col2: 'clarity.microsoft.com',
                                 col3: '2 years',
-                                col4: 'Google Analythics',
+                                col4: 'Microsoft Clarity',
                                 is_regex: true
                             }
                         ]

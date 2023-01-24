@@ -33,6 +33,9 @@ background-color: darkslateblue;
 html{
     scroll-behavior: smooth;
 }
+.mobbar{
+    display: none;
+}
 .navbar{
     position: relative;
     background-color: #2b2929;
@@ -284,4 +287,160 @@ html{
     margin-left: 20px;
     width: fit-content;
     font-size: medium;
+}
+.mobbar{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    .avatar{
+        top: 5%;
+        transform: scale(0.87);
+    }
+    .downloads{
+        display: none;
+    }
+    .devices{
+        display: none;
+    }
+    .music{
+        display: none;
+    }
+    .brand-text{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .brand-logo{
+        display: none;
+    }
+    .mobbar{
+        transition: all 150ms;
+        display: inline;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: #2b2929;
+        width: 100%;
+        height: 7%;
+        z-index: 33;
+    }
+    .mobbar.open{
+        transition: all 150ms;
+        display: inline;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: #2b2929;
+        width: 100%;
+        height: 100%;
+        z-index: 33;
+    }
+    .mobmenu{
+        position: absolute;
+        left: 40%;
+        color: azure;
+        text-align: center;
+        font-size: xx-large;
+        padding: 5px;
+        transition: all 150ms;
+        border-radius: 15px;
+    }
+    .moblink{
+        visibility: hidden;
+        display: none;
+        transition: all 150ms;
+    }
+    .moblink.show{
+        visibility: visible;
+        position: absolute;
+        transition: all 150ms;
+        color: azure;
+        display: inline;
+        z-index: 33;
+        top: 10%;
+        left: 40%;
+    }
+    .downnw{
+        visibility: hidden;
+        display: none;
+        transition: all 150ms;
+    }
+    .downnw.show{
+        visibility: visible;
+        position: absolute;
+        transition: all 150ms;
+        color: azure;
+        display: inline;
+        z-index: 33;
+        top: 15%;
+        left: 35%;
+    }
+    .devnw{
+        visibility: hidden;
+        display: none;
+        transition: all 150ms;
+    }
+    .devnw.show{
+        visibility: visible;
+        position: absolute;
+        transition: all 150ms;
+        color: azure;
+        display: inline;
+        z-index: 33;
+        top: 20%;
+        left: 38%;
+    }
+    .musicnw{
+        visibility: hidden;
+        display: none;
+        transition: all 150ms;
+    }
+    .musicnw.show{
+        visibility: visible;
+        position: absolute;
+        transition: all 150ms;
+        color: azure;
+        display: inline;
+        z-index: 33;
+        top: 25%;
+        left: 40%;
+    }
+    .cherry{
+        position: absolute;
+        left: -9%;
+    }
+    .kirita{
+        position: absolute;
+        top: 90%;
+        left: -9%;
+    }
+    .phoenix{
+        position: absolute;
+        top: 160%;
+        left: -9%;
+    }
+    .coso{
+        position: absolute;
+        top: 230%;
+        left: -9%;
+    }
 }

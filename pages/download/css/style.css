@@ -43,3 +43,6 @@ background-color: darkslateblue;
     color: #00a2ff;
     text-decoration: dashed;
   }
+  .download-frame{
+    visibility: hidden;
+  }
