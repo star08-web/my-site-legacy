@@ -87,16 +87,16 @@ cc.run({
                         },
                         cookie_table:[
                             {
-                                col1: '^_ga',       // match all cookies starting with "_ga"
-                                col2: 'google.com',
-                                col3: 'session',
-                                col4: 'Google Analythics',
+                                col1: 'NO_COOKIE',       // match all cookies starting with "_ga"
+                                col2: 'this website',
+                                col3: 'TEMP (deletes when the page get closed)',
+                                col4: 'Hostng (https://github.io)',
                                 is_regex: true
                             }
                         ]
                     }, {
                         title: 'Performance and Analytics cookies',
-                        description: 'These cookies allow the website to remember the choices you have made in the past',
+                        description: 'These cookies allow the creator of this website to get info about the website',
                         toggle: {
                             value: 'analytics',     // your cookie category
                             enabled: false,
