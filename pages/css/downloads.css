@@ -660,7 +660,7 @@ text-decoration: none;
         left: 0px;
         background-color: #2b2929;
         width: 100%;
-        height: 7%;
+        height: 5%;
         z-index: 33;
     }
     .mobbar.open{
@@ -711,8 +711,8 @@ text-decoration: none;
         color: azure;
         display: inline;
         z-index: 33;
-        top: 15%;
-        left: 35%;
+        top: 20%;
+        left: 38%;
     }
     .devnw{
         visibility: hidden;
@@ -726,8 +726,8 @@ text-decoration: none;
         color: azure;
         display: inline;
         z-index: 33;
-        top: 20%;
-        left: 38%;
+        top: 30%;
+        left: 39.5%;
     }
     .musicnw{
         visibility: hidden;
@@ -741,18 +741,18 @@ text-decoration: none;
         color: azure;
         display: inline;
         z-index: 33;
-        top: 25%;
-        left: 40%;
+        top: 40%;
+        left: 40.5%;
     }
     .downloads-box{
         content: "";
         position: absolute;
         height: 1800px;
-        width: 700px;
+        width: 650px;
         background-color: #2b2929;
         /*border: 1px solid #7a7a7a50;*/
         border-radius: 10px;
-        left: -2%;
+        left: 10%;
         top: 10%;
         padding: 10px;
         box-shadow: 10px 5px 15px #00000015, 10px 8px 12px #00000015;
@@ -764,7 +764,7 @@ text-decoration: none;
         position: absolute;
         left: -2%;
         height: 1800px;
-        width: 650px;
+        width: 600px;
         background-color: #454FBF;
         /*border: 1px solid #7a7a7a50;*/
         border-radius: 10px;   
@@ -775,7 +775,7 @@ text-decoration: none;
     }
     .osbake{
         top: 5%;
-        left: 15%;
+        left: 10%;
         content: "";
         position: absolute;
         height: 350px;
@@ -817,7 +817,7 @@ text-decoration: none;
     text-decoration: none;
     }
     .addplayersmc{
-        left: 15%;
+        left: 10%;
         top: 30%;
         content: "";
         position: absolute;
@@ -861,7 +861,7 @@ text-decoration: none;
     }
     .awnprank{
         content: "";
-        left: 15%;
+        left: 10%;
         top: 53%;
         position: absolute;
         height: 350px;
@@ -901,7 +901,7 @@ text-decoration: none;
     text-decoration: none;
     }
     .webview2browser{
-        left: 15%;
+        left: 10%;
         top: 75%;
         content: "";
         position: absolute;

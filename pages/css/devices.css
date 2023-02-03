@@ -493,7 +493,7 @@ html{
         left: 0px;
         background-color: #2b2929;
         width: 100%;
-        height: 7%;
+        height: 5%;
         z-index: 33;
     }
     .mobbar.open{
@@ -544,8 +544,8 @@ html{
         color: azure;
         display: inline;
         z-index: 33;
-        top: 15%;
-        left: 35%;
+        top: 20%;
+        left: 38%;
     }
     .devnw{
         visibility: hidden;
@@ -559,8 +559,8 @@ html{
         color: azure;
         display: inline;
         z-index: 33;
-        top: 20%;
-        left: 38%;
+        top: 30%;
+        left: 39.5%;
     }
     .musicnw{
         visibility: hidden;
@@ -574,26 +574,26 @@ html{
         color: azure;
         display: inline;
         z-index: 33;
-        top: 25%;
-        left: 40%;
+        top: 40%;
+        left: 40.5%;
     }
     .cherry{
         position: absolute;
-        left: 15%;
+        left: 20%;
     }
     .kirita{
         position: absolute;
         top: 90%;
-        left: 15%;
+        left: 20%;
     }
     .phoenix{
         position: absolute;
         top: 160%;
-        left: 15%;
+        left: 20%;
     }
     .coso{
         position: absolute;
         top: 230%;
-        left: 15%;     
+        left: 20%;     
 }
 }
